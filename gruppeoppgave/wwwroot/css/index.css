@@ -1,0 +1,93 @@
+﻿body {
+    font-size: 100%;
+}
+
+header {
+    background-color: #8DB1AB;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+img {
+    max-width: 8%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    margin-right: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #61526A;
+    text-decoration: none;
+}
+
+.observasjoner {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+h2 {
+    color: #61526A;
+}
+
+.kolonne {
+    width: 100%;
+    padding: 5px;
+}
+
+.rad::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.knapp {
+    background-color: #8DB1AB;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to bottom, #dbd1e0, transparent);
+    border: 1px #a8a8a8 solid;
+}
+
+.knapp:hover {
+    background-color: #DEFFD2;
+}
+
+#tabell {
+    margin-top: 15px;
+    font-size: 15px;
+    border-top: 1px solid black;
+    color: black;
+    width: 100%;
+    
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #eeffe8;
+}

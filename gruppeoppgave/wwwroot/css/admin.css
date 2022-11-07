@@ -1,0 +1,31 @@
+﻿.knapp-endre {
+    background-color: #8DB1AB;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to top, #dbd1e0, transparent);
+    border: 1px #a8a8a8 solid;
+}
+
+.knapp-slett {
+    background-color: #927F9E;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to bottom, #F6B7B7, transparent);
+    border: 1px #a8a8a8 solid;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.knapp-endre:hover {
+    background-color: #DEFFD2;
+}
+
+.knapp-slett:hover {
+    background-color: #CD8282;
+}

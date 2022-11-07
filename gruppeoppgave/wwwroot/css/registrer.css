@@ -1,0 +1,44 @@
+﻿.form-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.form-group-knapper {
+    margin-top: 10px;
+}
+
+input, textarea {
+    border: 1px solid #61526A;
+    border-radius: 3px;
+    width: 25%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form-group.feilmelding input {
+    border-color: #ff3860;
+}
+
+.form-group .feilmelding {
+    color: #ff3860;
+    font-size: 10px;
+    height: 13px;
+}
+
+.knapp-avbryt {
+    background-color: #927F9E;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to bottom, #F6B7B7, transparent);
+    border: 1px #a8a8a8 solid;
+    cursor: pointer;
+}
+
+.knapp-avbryt:hover {
+    background-color: #CD8282;
+}

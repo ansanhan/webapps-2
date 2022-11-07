@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Endre observasjon</title>
+    <link rel="icon" href="img/logo1.png" alt="UFObserved logo">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/endre.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/registrer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+    <body>
+        <header>
+            <div class="rad">
+                <div class="kolonne">
+                    <img src="img/logo4.png" alt="UFO logo" />
+                </div>
+                <div class="kolonne">
+                    <h1>UFObserved - database for UFO-observasjoner</h1>
+                    <a href="index.html">HJEM</a>
+                    <a href="admin.html">ADMINISTRER</a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="observasjoner">
+            <h2>Endre observasjon</h2>
+            <form id="regForm" class="form col-md-3">
+                <div class="form-group">
+                    <label>Observert av</label>
+                    <input type="text" id="navn" name="navn" class="form-control" onchange="endretNavn()"/>
+                    <div class="feilmelding" id="errNavn"></div>
+                </div>
+                <div class="form-group">
+                    <label>Sted</label>
+                    <input type="text" id="sted" name="sted" class="form-control" onchange="endretSted()"/>
+                    <div class="feilmelding" id="errSted"></div>
+                </div>
+                <div class="form-group">
+                    <label>Dato</label>
+                    <input type="date" id="dato" name="dato" class="form-control" onchange="endretDato()"/>
+                    <div class="feilmelding" id="errDato"></div>
+                </div>
+                <div class="form-group">
+                    <label>Tid</label>
+                    <input type="time" id="tid" name="tid" class="form-control" onchange="endretTid()"/>
+                    <div class="feilmelding" id="errTid"></div>
+                </div>
+                <div class="form-group ">
+                    <label>Beskrivelse</label>
+                    <textarea id="beskrivelse" name="beskrivelse" placeholder="Skriv beskrivelse her.." class="form-control" onchange="endretBes()"></textarea>
+                    <div class="feilmelding" id="errBes"></div>
+                </div>
+                <div class="form-group-knapper">
+                    <button type="button" onclick="registrer()" id="reg" class="knapp">Lagre</button>
+                    <button type="button" button class="knapp-avbryt" onClick="location.href='admin.html';">Avbryt</button>
+                </div>
+                <div id="feil" style="color: red"></div>
+            </form>
+            
+        </div>
+    </body>
+</html>
