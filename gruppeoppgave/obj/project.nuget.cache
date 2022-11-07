@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "swX68jMcTWY+iZ0WB5fcYPvEdbMbiMbli4q1NFSDlaq/L7FN+Bh1enPoa/kFjkYB1+U6+Cdp3veZUkmEJH1oGQ==",
+  "dgSpecHash": "qh+TULdAQTbepKpYZvJZqfUYlu2ULmzlPlh9PauY1YMDaFTa9CZhjhvX0Ga9p9vv3K+iU5PRzHAt+DCvQJ96Hg==",
   "success": true,
-  "projectFilePath": "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/gruppeoppgave.csproj",
+  "projectFilePath": "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/gruppeoppgave.csproj",
   "expectedPackageFiles": [
     "/Users/erlingmidttun/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/erlingmidttun/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/gruppeoppgave.csproj": {}
+    "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/gruppeoppgave.csproj": {}
   },
   "projects": {
-    "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/gruppeoppgave.csproj": {
+    "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/gruppeoppgave.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/gruppeoppgave.csproj",
+        "projectUniqueName": "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/gruppeoppgave.csproj",
         "projectName": "gruppeoppgave",
-        "projectPath": "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/gruppeoppgave.csproj",
+        "projectPath": "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/gruppeoppgave.csproj",
         "packagesPath": "/Users/erlingmidttun/.nuget/packages/",
-        "outputPath": "/Users/erlingmidttun/Downloads/webapps-gruppeoppgave-1-master 2/gruppeoppgave/obj/",
+        "outputPath": "/Users/erlingmidttun/Library/CloudStorage/OneDrive-OsloMet(1)/Skole/webapps/webapps-gruppeoppgave-2/webapps-2/gruppeoppgave/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/erlingmidttun/.nuget/NuGet/NuGet.Config"
